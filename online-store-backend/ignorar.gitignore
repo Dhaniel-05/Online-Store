@@ -1,0 +1,25 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de configuración locales
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Directorios de construcción
+dist/
+build/
+
+# Archivos de caché
+.cache/

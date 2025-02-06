@@ -1,0 +1,48 @@
+/* Styles for Product Management Modal Form */
+#product-management-modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+}
+
+#product-management-modal input,
+#product-management-modal textarea {
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#product-management-modal textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#product-management-modal #save-product-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#product-management-modal #save-product-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+#product-management-modal #product-image {
+    border: 1px dashed var(--border-color);
+    padding: 10px;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+}
